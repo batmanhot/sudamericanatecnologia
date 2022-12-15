@@ -1,0 +1,171 @@
+/*
+*
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: MONTSERRAT-BOLD;
+    src: url('../imagen/FONTS/MONTSERRAT-BOLD_[ALLFONT.ES]\ \(1\).TTF');
+    src: url('../imagen/FONTS/MONTSERRAT-BOLD_[ALLFONT.ES]\ \(1\).TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+.imagenprin_agricola
+{
+    background: url(../imagen/ImagenPrincipal_Agricola.jpg);
+}
+
+.imagenprin_construccioncivil
+{ 
+   background: url(../imagen/ImagenPrincipal_Construccion.jpg)
+}
+
+.imagenprin_topografia
+{
+   background: url(../imagen/ImagenPrincipal_Topografia.jpg)   
+}
+
+.imagenprin_riegotecnificado
+{
+   background: url(../imagen/ImagenPrincipal_Riego.jpg)   
+}
+
+.imagenprin_nosotros
+{
+   background: url(../imagen/ImagenPrincipalNosotros.jpg)      
+}
+
+.imagenprin_nuestrosclientes
+{
+   background: url(../imagen/ClientesSatisfechos.png)      
+   
+}
+
+.imagenprin_portafolio
+{
+   background: url(../imagen/GestionTecnologica_Principal.jpg)      
+   
+}
+
+
+.imagen
+{    
+    background: url(../imagen/GestionTecnologica_Principal.jpg)
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-size: cover;     
+    height: 30rem
+}
+
+.bg-center {
+    background-position: center center; 
+    /* background-position: 20% 75%; */
+    }
+
+code {
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.1rem;
+  text-shadow: none;
+}
+
+.demo-text {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+  font-family:  Roboto, Helvetica, sans-serif; 
+  font-size: 16px;
+}
+
+
+/*
+* ==========================================
+*  NUESTROS SERVICIOS
+* ==========================================
+*/
+
+.shadow-text {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 1);
+}
+
+.titulo1-text {
+    font-family:  MONTSERRAT-BOLD, Helvetica, sans-serif; 
+    font-size: 30px; 
+}
+
+.titulo2-text {
+    font-family:  Roboto, Helvetica, sans-serif; 
+    font-size: 21px; 
+    font-weight: bold;
+}
+
+.titulo4-text {
+    font-family:  Roboto, Helvetica, sans-serif; 
+    font-size: 16px; 
+}
+
+.div-portafolio
+{
+    width: 50rem;    
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    /* margin-left: 150px; */
+}
+
+.div-listaenumerada
+{
+    margin-left: 5px;    
+    list-style-position: inside;
+    text-align: left;
+}
+
+
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.overlay-gradient {
+    position: relative;
+}
+
+.overlay-gradient::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #4FC3F7, #8E24AA);
+    display: block;
+    opacity:  0.2;
+    
+    /* 0.55; */
+}
+
+.overlay-dark {
+    position: relative;
+}
+
+.overlay-dark::before {
+    content: '';
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    display: block;
+    opacity: 0.2;  
+}
+
+.overlay-content {
+    z-index: 99;
+    position: relative; 
+}

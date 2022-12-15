@@ -1,0 +1,66 @@
+/* definition */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: MONTSERRAT-BOLD;
+    src: url('../imagen/FONTS/MONTSERRAT-BOLD_[ALLFONT.ES]\ \(1\).TTF');
+    src: url('../imagen/FONTS/MONTSERRAT-BOLD_[ALLFONT.ES]\ \(1\).TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: conthrax-sb;
+    src: url('../imagen/FONTS/conthrax-sb.ttf');
+    src: url('../imagen/FONTS/conthrax-sb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+.titulo-logo-text-primeralinea {
+    font-family:  conthrax-sb, sans-serif; 
+    font-size: 31px; 
+}
+.titulo-logo-text-segundalinea {
+    font-family:  conthrax-sb, sans-serif; 
+    font-size: 19px; 
+}
+
+
+h1 { 
+    font-family: 'MONTSERRAT-BOLD', sans-serif;
+}
+
+.nav-link { 
+    font-family: 'Roboto', sans-serif; 
+} 
+
+.navbar-brand
+{
+    font-family: 'MONTSERRAT-BOLD', sans-serif;     
+}
+
+.margen
+{
+    margin-left: 50rem; 
+}
+
+.text-item{
+    font-size: 15px;
+}
+
+.fondo-color {
+    /* background: #16222A; */
+    background: linear-gradient(59deg, #3A6073, #16222A);   
+}
+
+/* Item del Menu Principal */
+
+/* .text-item:hover{ */
+.dropdown-item:hover{
+    background-color: red;    
+}
+

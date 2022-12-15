@@ -1,0 +1,9 @@
+.boton {
+    width:90px; 
+    position:fixed; 
+    bottom:100px; 
+    right:40px;
+    z-index:99
+}
+
+@media only screen and (max-width: 700px) {.boton {width:70px; right:20px;bottom:20px}} 
